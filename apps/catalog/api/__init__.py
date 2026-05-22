@@ -1,0 +1,2 @@
+"""Catalog REST API subpackage."""
+

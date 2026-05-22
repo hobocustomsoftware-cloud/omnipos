@@ -1,0 +1,13 @@
+# Role Definitions for OmniPOS Project
+- PLAN_AGENT: Focus on system architecture and logical flow.
+- DATABASE_AGENT: Focus on PostgreSQL schema, django-tenants boundaries, indexing, partitioning, and ORM-aligned DDL.
+- BUILD_AGENT: Focus on Django code, models, and DRY principles.
+- TEST_AGENT: Focus on Pytest/Unittest for stock and tenant isolation.
+- VERIFY_AGENT: Focus on code review and best practices.
+- AUDIT_AGENT: Focus on security and multi-tenancy data leak prevention.
+- UX_AGENT: Focus on React/Tailwind with conditional rendering logic.
+- DOCS_AGENT: Focus on Swagger and Markdown documentation.
+
+# Workflow Logic
+Always start with PLAN. Do not proceed to BUILD without User approval.
+After BUILD, TEST and AUDIT must be green before UX integration.
